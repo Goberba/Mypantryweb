@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './arreglos.css';
 import reportWebVitals from './reportWebVitals';
+
+
+import Header from './header/Header';
+import Section from './section/Section';
+import About from './section/About';
+import Portafolio from './section/Portafolio';
+import Testimonial from './section/Testimonial';
+import Teams from './section/Teams';
+import Contact from './section/Contact';
+import Footer from './footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Section/>
+    <About/>
+    <Portafolio/>
+    <Testimonial/>
+    <Teams/>
+    <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 
